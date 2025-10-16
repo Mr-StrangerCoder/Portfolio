@@ -5,98 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="shortcut icon" href="/img/cv.png" type="image/x-icon">
-    <style>
-        *{
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-    body {
-      margin: 0;
-      height: 100vh;
-      background-image: url('/img/pexels-eberhardgross-1367192.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;     
-      background-attachment: fixed; 
-      background-position: center;
-    }
-    #navbar{
-        display: flex;
-        justify-content:space-evenly;
-        background-color: rgba(21, 21, 29, 0.829);
-        border-radius: 0px 0px 20px 20px ;
-        width: 80%;
-        height: 40px;
-        padding: 10px;
-        margin: 0 auto;
-    
-    }
-    .navMenu{
-        text-decoration: none;
-        color: wheat;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    .navMenu:hover{
-        font-size: 20px;
-        color: beige;
-        text-shadow: 0 0 20px #eeede7;
-    }
-
-    #resbut{
-        background-color: rgb(252, 169, 14);
-        color: rgb(15, 15, 14);
-        border: 1px solid white;
-        width: 150px;
-        border-radius: 5px 5px 5px 5px;
-    }
-    #resbut:hover{
-        background-color: rgb(238, 156, 3);
-        box-shadow: 0 0 20px #ffcc00;
-        
-    }
-    #fullstack{
-        color:orange;
-    }
-
-    #user{
-        color: rgb(10, 10, 10);
-        margin-top: 7%;
-        margin-left: 15%;
-        font-size: 23px;
-
-    }
-    #userImg{
-        width: 200px;
-        height: 300px;
-    }
-    header{
-        display: flex;
-    }
-    #userImg{
-        border: 2px solid rgb(248, 242, 242);
-        border-radius: 100px 100px 100px 100px;
-        margin-top: 60%;
-        margin-left: 30%;
-        box-shadow: rgb(20, 20, 20) 5px 0px 20px 10px;
-
-    }
-    .icon{
-        width: 30px;
-        height: 30px;
-    }
-    .icon:hover{
-         box-shadow: 0 0 30px #080808;
-    }
-    .ap{
-        color:orange;
-    } 
-    #content{
-        color: #eeede7;
-        font-weight: 70px;
-        font-size: 25px;
-    }
-     
-    </style>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
    <nav>
@@ -130,7 +39,10 @@
             <a id="but" href="https://aadesh-sonawane.tiiny.site/"><button id="resbut">Download CV</button></a>
         </div>
         <div>
-            <img id="userImg" src="/img/IMG_20250705_094725_393.jpg" alt="">
+            <div id="userImg">
+                <img id="userImg" src="/img/IMG_20250705_094725_393.jpg" alt="">
+            </div>
+            
         </div>
    </header>    
 </body>
