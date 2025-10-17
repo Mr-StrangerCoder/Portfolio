@@ -5,62 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="shortcut icon" href="/img/cv.png" type="image/x-icon">
+    <link rel="stylesheet" href="contact.css">
     <style>
-        *{
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-    body {
-      margin: 0;
-      height: 100vh;
-      background-image: url('/img/pexels-pavel-danilyuk-8294657.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;     
-      background-attachment: fixed; 
-      background-position: center;
-    }
-    #navbar{
-        display: flex;
-        justify-content:space-evenly;
-        background-color: rgba(21, 21, 29, 0.829);
-        border-radius: 0px 0px 20px 20px ;
-        width: 80%;
-        height: 40px;
-        padding: 10px;
-        margin: 0 auto;
-    
-    }
-    .navMenu{
-        text-decoration: none;
-        color: wheat;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    .navMenu:hover{
-        font-size: 20px;
-        color: beige;
-        text-shadow: 0 0 20px #eeede7;
-    }
-    .ap{
-        color: orange;
-    } 
-     #box{
-        width: 80%;
-        height: 90%;
-        background-color: rgba(21, 21, 29, 0.61);
-        margin: 0 auto;
-        margin-top: 5%;
-        border-radius: 10px 10px 10px 10px;
-        color: beige;
-       
-    }
-    #org{
-        color: orange;
-    }
-    #head{
-        text-align: center;
-        padding-top: 1rem;
-    }
+        
    
 
    
@@ -85,6 +32,43 @@
    <main>
     <div id="box">
         <h2 id="head">Contact <b id="org">Me</b></h2>
+        <div class="contDiv">
+            <div class="getTouch">
+                <div>
+                    <h2>Get in Touch</h2> &nbsp;
+                    <h4>I'd like ti hear form you!</h4>
+                    &nbsp;
+                    <p>If you have any inquiries or just want to say hi, please use the contact form </p>
+                </div>
+                <div class="mail">
+                    <a href="https://github.com/aadeshsonawane"><img src="/img/github.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/aadesh-sonawane-9baa951b6/"><img src="/img/linkedin.png" alt=""></a>
+                    <a href="mailto: aadeshsonawane307@gmail.com"><img src="/img/email.png" alt=""></a>
+                </div>
+            </div>
+            <div class="formDiv">
+                <form action="">
+                    <label class="font" for="name">Name:</label> <br>
+                    <input id="name" type="text" placeholder="Enter full name..">
+                    <br>
+                    <label  for="">Email:</label> <br>
+                    <input placeholder="Email..." id="name" type="text">
+                    <br>
+                    <label for="">Message:</label>
+                     <br>
+                      <textarea id="msg" name="message" placeholder="Type your message here..."></textarea> <br>
+                      <div class="bt">
+                         <button type="submit">Send</button>
+                    
+                      </div>
+                     
+                    
+                </form>
+                
+
+            </div>
+
+        </div>
     </div>
    </main>  
 </body>

@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="shortcut icon" href="/img/cv.png" type="image/x-icon">
-    <style>
-        *{
+*{
             padding: 0;
             margin: 0;
             box-sizing: border-box;
@@ -14,12 +6,11 @@
     body {
       margin: 0;
       height: 100vh;
-      background-image: url('/img/home.jpg');
+      background-image: url('/img/project.jpg');
       background-repeat: no-repeat;
       background-size: cover;     
       background-attachment: fixed; 
       background-position: center;
-      
     }
     #navbar{
         display: flex;
@@ -30,9 +21,9 @@
         height: 40px;
         padding: 10px;
         margin: 0 auto;
-          box-shadow:  0 1px 20px orange;
+         box-shadow:  0 1px 20px orange;
     
-    }   
+    }
     .navMenu{
         text-decoration: none;
         color: wheat;
@@ -66,28 +57,3 @@
         text-align: center;
         padding-top: 1rem;
     }
-   
-     
-    </style>
-</head>
-<body>
-   <nav>
-    <div id="navbar">
-        <a class="navMenu" href="http://127.0.0.1:5500/index.html"> Home</a>
-        <a class="navMenu" href="http://127.0.0.1:5500/about.html"> About</a>
-        <a class="navMenu" href="http://127.0.0.1:5500/skills.html"> Skills</a>
-        <a class="navMenu" href="http://127.0.0.1:5500/project.html"> Projects</a>
-        <a class="navMenu ap" href="http://127.0.0.1:5500/experience.html"> Experience</a>
-        <a class="navMenu" href="http://127.0.0.1:5500/contact.html">Contact</a>
-    </div>
-   </nav>
-   <header>
-        
-   </header> 
-   <main>
-    <div id="box">
-        <h2 id="head">My <b id="org">Experience</b></h2>
-    </div>
-   </main>    
-</body>
-</html>
