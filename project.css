@@ -48,8 +48,21 @@
         border: 1px solid rebeccapurple;
         height: 530px;
         box-shadow:  0 1px 20px orange;
+        position: relative;
        
     }
+    #box .next{
+        position: absolute;
+        right: 25px;
+        bottom: 10px;
+        color: rgb(255, 255, 255);
+    }
+        #box .back{
+        position: absolute;
+        left: 25px;
+        bottom: 10px;
+        color: white;
+     }
     #org{
         color: orange;
     }
