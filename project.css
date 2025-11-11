@@ -59,7 +59,7 @@
     }
         #box .back{
         position: absolute;
-        left: 25px;
+        left: 0.3rem;
         bottom: 10px;
         color: white;
      }
@@ -133,4 +133,24 @@
         box-shadow: 0 0 10px orange;
         background-color: orange;
 
+     }
+
+     @media (max-width:600px){
+         #navbar{
+            width: 100%;
+        }
+        .mainPro{
+            flex-direction: column;
+        }
+        .projectDiv{
+            width: 60%;
+            margin: 0.2rem auto;
+        }
+        #box{
+            height: auto;
+        }
+        #box  .back{
+            
+
+        }
      }
