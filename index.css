@@ -85,6 +85,7 @@
     @media (max-width:600px) {
         #navbar{
             width: 100%;
+             padding-top: 1rem;
         }
         #user{
             width: 100%;

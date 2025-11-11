@@ -4,8 +4,6 @@
             box-sizing: border-box;
         }
     body {
-      margin: 0;
-      height: 100vh;
       background-image: url('./img/2.jpg');
       background-repeat: no-repeat;
       background-size: cover;     
@@ -18,7 +16,8 @@
         background-color: rgba(21, 21, 29, 0.829);
         border-radius: 0px 0px 20px 20px ;
         width: 80%;
-        padding: 1%;
+        padding-top: 1%;
+        height: 3rem;
         margin: 0 auto;
           box-shadow:  0 1px 20px orange;
     }
@@ -43,7 +42,7 @@
         border-radius: 10px 10px 10px 10px;
         color: beige;
         border: 1px solid rebeccapurple;
-        height: auto;
+        /* height: 75; */
         box-shadow:  0 1px 20px orange;
     }
     #org{
@@ -58,7 +57,7 @@
     /* skill */
    .mainDiv{
     border: 1px solid red;
-    height: 80%;
+    /* height: 80%; */
     margin: 1rem 2rem;
     display: flex;
     gap: 4%;
@@ -136,6 +135,7 @@
  @media (max-width:600px) {
      #navbar{
             width: 100%;
+            padding-top: 1rem;
         }
     .skill h3{
         font-size:90%;
