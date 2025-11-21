@@ -114,11 +114,11 @@
         color: white;
     }
     .demoBt{
-        border: 1px solid peru;
+        border: 1px solid rgb(85, 41, 245);
         text-align: center;
         bottom: 1rem;
         width: 100%;
-        height: 7%;
+        height: auto;
         position: absolute;
     }
     .demoBt #live{
@@ -126,6 +126,7 @@
         border: none;
         padding: 5px 10px;
         border-radius: 5px;
+        cursor: pointer;
     }
      .demoBt #live:hover{
         box-shadow: 0 0 10px orange;
@@ -135,6 +136,7 @@
         border: none;
         padding: 5px 10px;
         border-radius: 5px;
+        cursor: pointer;
     }
      .demoBt #git:hover{
         box-shadow: 0 0 10px orange;
@@ -153,9 +155,20 @@
         .projectDiv{
             width: 60%;
             margin: 0.2rem auto;
+            height: 22rem;
+            position: relative;
+        }
+        .projectDiv p{
+            margin-bottom: 1rem;
         }
         #box{
             height: auto;
         }
-
+        .projectDiv .demoBt{
+            position: absolute;
+            bottom: 0.5rem;
+        }
+  
+   
      }
+     
